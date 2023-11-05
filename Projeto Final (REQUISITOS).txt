@@ -1,0 +1,23 @@
+Você foi contratado para desenvolver um programa em C para gerenciar uma lista de contatos. Cada contato deve ter as seguintes informações:
+
+nome, 
+telefone e 
+email.
+O programa deve permitir ao usuário adicionar novos contatos, listar todos os contatos cadastrados e salvar todos os contatos em um arquivo de texto.
+
+Para isso, você precisa implementar as seguintes funcionalidades:
+Definir uma struct Contato com os campos necessários para armazenar nome, telefone e email
+Criar um vetor de contatos com tamanho fixo para armazenar os contatos.
+Criar uma função adicionarContato que receba como parâmetros o vetor de contatos e o número atual de contatos, e permita ao usuário adicionar um novo contato.
+Criar uma função listarContatos que receba como parâmetros o 
+
+vetor  de contatos e o número atual de contatos, e liste na tela todos os contatos cadastrados.
+Criar uma função salvarContatos que receba como parâmetros o vetor  de contatos, o número atual de contatos e o nome do arquivo de texto, e salve todos os contatos nesse arquivo.
+No programa principal, criar um menu interativo que permita ao usuário realizar as seguintes ações:
+Adicionar um novo contato.
+Listar todos os contatos.
+Salvar todos os contatos em um arquivo.
+Sair do programa.
+Você deve utilizar o tamanho fixo do vetor de contatos para limitar o número máximo de contatos que podem ser adicionados.
+Certifique-se de validar o número máximo de contatos para evitar que o programa tente adicionar mais contatos do que o tamanho do vetor permite.
+Utilize arquivos de texto para salvar os contatos, sendo que cada linha do arquivo deve conter as informações de um contato.
